@@ -5,10 +5,232 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>
-
+    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 <body>
+
+        <header class="flex justify-between items-baseline my-4">
+            <div class="m-4">
+                <a href="#"><img src="img/booki.png" alt="logo" height="100" width="100"></a>
+            </div>
+
+            <nav>
+                <a href="#" class="m-2 hover:text-blue-400">Hébergements</a>
+                <a href="#" class="m-2 hover:text-blue-400">Activités</a>
+            </nav>
+        </header>
+
+              
+        <main class="m-4">
+            <div>
+                <p class="font-bold text-lg">
+                    Trouvez votre hébérgement pour des vacances de rêve
+                </p>
+
+                <p>
+                    En pleine centre ville ou en plein nature
+                </p>
+
+                <form action="#" method="post" class="flex my-4">
+                    <div class="p-1 bg-gray-300 rounded-l-lg"><img src="img/iconmonstr-location-3-240.png" width="30"></div>
+                    <input type="text" name="search" placeholder="Marseille, France" class="p-1 border-solid border-2">
+                    <button type="submit" class="p-1 bg-sky-600 rounded-r-lg">Rechercher</button>
+                </form>
+            <div class="flex items-center my-4">
+                <p class="mr-2">
+                    Filtres
+                </p>
+                <div class="flex flex-wrap">
+                    <div class="flex items-center border-2 rounded-3xl mr-2">
+                        <a href="" class="p-2 bg-sky-300 rounded-full"><img src="img/iconmonstr-banknote-15-240.png" width="20" height="20"></a><p class="p-2">Economique</p>
+                    </div>
+                    <div class="flex items-center border-2 rounded-3xl mr-2">
+                        <a href="" class="p-2 bg-sky-300 rounded-full"><img src="img/iconmonstr-user-23-240.png" width="20" height="20"></a><p class="p-2">Familial</p>
+                    </div>
+                    <div class="flex items-center border-2 rounded-3xl mr-2">
+                        <a href="" class="p-2 bg-sky-300 rounded-full"><img src="img/iconmonstr-favorite-3-240.png" width="20" height="20"></a><p class="p-2">Romantique</p>
+                    </div>
+                    <div class="flex items-center border-2 rounded-3xl mr-2">
+                        <a href="" class="p-2 bg-sky-300 rounded-full"><img src="img/iconmonstr-cat-1-240.png" width="20" height="20"></a><p class="p-2">Animaux autorisés</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="flex items-center">
+                <div>
+                    <img src="img/iconmonstr-info-7-240.png" width="20" height="20">
+                </div>
+                
+                <p class="pl-10">
+                    Plus de 500 logements sont disponible dans cette ville
+                </p>
+            </div>
+
+            <div class="flex justify-between">
+                <div class="p-2 my-2 flex flex-col justify-between bg-gray-300 rounded-3xl box-border w-4/6">
+
+                    <p class="m-4 font-bold text-lg">
+                        Hébergements à Marseille
+                    </p>
+                    <div class="flex justify-around">
+                        <div class="m-2 p-2 flex-col bg-white rounded-3xl shadow-md">
+                            <img src="https://picsum.photos/150/100">
+                            <p class="font-bold text-xs">
+                                Auberge de la Cannebière
+                            </p>
+                        </div>
+                        <div class="m-2 p-2 flex-col bg-white rounded-3xl shadow-md">
+                            <img src="https://picsum.photos/150/100">
+                            <p class="font-bold text-xs">
+                                Hotel du port
+                            </p>
+                        </div>
+                        <div class="m-2 p-2 flex-col bg-white rounded-3xl shadow-md">
+                            <img src="https://picsum.photos/150/100">
+                            <p class="font-bold text-xs">
+                                Hotel Les mouettes
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-around">
+                        <div class="m-2 p-2 flex-col bg-white rounded-3xl shadow-md">
+                            <img src="https://picsum.photos/150/100">
+                            <p class="font-bold text-xs">
+                                Hotel de la mer
+                            </p>
+                        </div>
+                        <div class="m-2 p-2 flex-col bg-white rounded-3xl shadow-md">
+                            <img src="https://picsum.photos/150/100">
+                            <p class="font-bold text-xs">
+                                Auberge Le Panier
+                            </p>
+                        </div>
+                        <div class="m-2 p-2 flex-col bg-white rounded-3xl shadow-md">
+                            <img src="https://picsum.photos/150/100">
+                            <p class="font-bold text-xs">
+                                Hotel chez Amina
+                            </p>
+                        </div>
+                    </div>
+                
+                    <p class="m-4"><a href="#">Afficher plus</a></p>
+
+                </div>
+
+                <div class="flex flex-col p-2 bg-gray-300 rounded-3xl my-2 box-border">
+                    <p class="p-2 font-bold text-lg">
+                        Les plus populaires
+                    </p>
+                    <div class="m-2 p-2 flex bg-white rounded-3xl shadow-md">
+                        <img src="https://picsum.photos/100/120">
+                        <p class="p-2 font-bold text-xs">
+                            Hotel Le soleil du matin
+                        </p>
+                    </div>
+                    <div class="m-2 p-2 flex bg-white rounded-3xl shadow-md">
+                        <img src="https://picsum.photos/100/120">
+                        <p class="p-2 font-bold text-xs">
+                            Au coeur de l'eau Chambre d'hotes
+                        </p>
+                    </div>
+                    <div class="m-2 p-2 flex bg-white rounded-3xl shadow-md">
+                        <img src="https://picsum.photos/100/120">
+                        <p class="p-2 font-bold text-xs">
+                            Hotel Tout bleu et blanc
+                        </p>
+                    </div>
+                </div>
+            </div>
+                
+
+            <div class="m-4 flex flex-col">
+                <p class="p-2 font-bold text-lg">
+                    Activités à Marseille
+                </p>
+            <div class="flex justify-around flex-wrap">
+                <div class="p-2 border-2 rounded-3xl shadow-md">
+                    <img src="https://picsum.photos/250/350">
+                    <p>
+                        Vieux Port
+                    </p>
+                </div>
+                <div>
+                    <div class="p-2 border-2 rounded-3xl shadow-md">
+                        <img src="https://picsum.photos/200/150">
+                        <p>
+                            Fort de pomègues
+                        </p>
+                    </div>
+                    <div class="p-2 bg-white rounded-3xl shadow-md">
+                        <img src="https://picsum.photos/200/150">
+                        <p>
+                            Iles du Frioul
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="p-2 border-2 rounded-3xl shadow-md">
+                    <img src="https://picsum.photos/250/350">
+                    <p>
+                        Parc National des Calanques
+                    </p>
+                </div>
+                <div>
+                    <div class="p-2 border-2 rounded-3xl shadow-md">
+                        <img src="https://picsum.photos/200/150">
+                        <p>
+                            Notre-Dame-de-la-Garde
+                        </p>
+                    </div>
+                    <div class="p-2 border-2 rounded-3xl shadow-md">
+                        <img src="https://picsum.photos/200/150">
+                        <p>
+                            Parc Longchamp
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+               
+                
+            </div>
+
+        </main>
+ 
+        
+        <footer class="p-4 bg-gray-100">
+            <nav class="flex justify-between">
+                <div class="flex flex-col w-1/3">
+                    <p class="mb-4 font-bold">
+                        A propos
+                    </p>
+                    <a href="#">Fonctionnement du site</a>
+                    <a href="#">Conditions générales de vente</a>
+                    <a href="#">Données et confidentialité</a>
+                </div>
+
+                <div class="flex flex-col w-1/3">
+                    <p class="mb-4 font-bold">
+                        Nos Hébergements
+                    </p>
+                    <a href="#">Charte qualité</a>
+                    <a href="#">Soumettre votre hôtel</a>
+                </div>
+
+                <div class="flex flex-col w-1/3">
+                    <p class="mb-4 font-bold">
+                        Assistance
+                    </p>
+                    <a href="#">Centre d'aide</a>
+                    <a href="#">Nous contacter</a>
+                </div>
+
+            </nav>
+        </footer>
     
+
 </body>
 </html>
